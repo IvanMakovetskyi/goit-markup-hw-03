@@ -41,19 +41,25 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+
 .nav{
     display: flex;
     align-items: center;
     height: 80px;
+    margin-left: 85px;
 }
 .contacts{
     display: flex;
     align-items: center;
     height: 80px;
-
 }
 
-.name-company{
+.nav__name-company{
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -75,10 +81,6 @@ nav{
     line-height: 16px;
 
     color: #212121;
-}
-
-.nav__link--left{
-    margin-left: 85px;
 }
 
 .nav__link:not(last-child){
@@ -198,6 +200,7 @@ nav{
 .occupation__title{
     margin-bottom: 50px;
 
+    font-weight: 700px;
     text-align: center;
     font-size: 36px;
     line-height: 42px;
@@ -238,7 +241,7 @@ nav{
     margin-bottom: 50px;
 
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 42px;
     text-align: center;
 
@@ -291,6 +294,7 @@ nav{
 .clients__title{
     margin-bottom: 50px;
 
+    font-weight: 700px;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -319,20 +323,27 @@ footer{
     align-items: center;
 }
 
-.adress{
+
+address{
     font-style: normal;
     margin-right: 70px;
+}
+
+.adress__name-company{
+    font-family: Raleway;
+    font-weight: 700px;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.name-company--white{
+    color: #ffffff;
 }
 
 .adress__text{
     font-size: 14px;
     line-height: 24px;
 
-    color: #ffffff;
-}
-
-
-.name-company--white{
     color: #ffffff;
 }
 
@@ -397,7 +408,8 @@ footer{
 }
 
 
-.lets-go__link{
+.lets-go__btn{
+    border: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
@@ -411,13 +423,12 @@ footer{
     background: #2196F3;
 }
 
-
 .copyright{
     text-align: center;
     font-size: 12px;
     line-height: 24px;
 
-    color: rgba(194, 140, 140, 0.4);
+    color: rgba(255, 255, 255, 0.4);
 }
 
 /*PORTFOLIO*/ /*Портфолио*/
