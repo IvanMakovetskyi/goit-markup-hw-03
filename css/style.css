@@ -8,12 +8,13 @@
 
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
     font-family: Roboto;
-    width: 1600px;
+    max-width: 1600px;
 }
 
 a{
@@ -101,7 +102,7 @@ nav{
 }
 
 .contacts__text--right{
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 .contacts__text:focus,
@@ -113,9 +114,11 @@ nav{
 .hello{
     background-image: url(../img/Header_imgfon.png);
     height: 600px;
-    width: 1600px;
+    max-width: 1600px;
     padding-top: 200px;
-    margin-bottom: 95px;
+    margin-bottom: 94px;
+
+    text-align: center;
 }
 
 .hello__title{
@@ -127,7 +130,7 @@ nav{
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    text-align: center;
+    text-transform: uppercase;
 
     color: #ffffff;
 }
@@ -135,8 +138,7 @@ nav{
     padding: 10px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-left: 700px;
-    margin-right: 700px;
+    text-align: center;
 
     font-weight: 700;
     font-size: 16px;
@@ -151,7 +153,8 @@ nav{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 190px;
+    margin-top: 94px;
+    margin-bottom: 94px;
 }
 
 .main-pynkts__title{
@@ -173,6 +176,7 @@ nav{
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
+    text-transform: uppercase;
 
     color: #212121;
 }
@@ -188,6 +192,7 @@ nav{
 /*Occupation*/ /*Чем ми занимаемся*/
 .occupation{
     width: 1200px;
+    margin-top: 94px;
     margin-bottom: 95px;
     margin-left: auto;
     margin-right: auto;
@@ -220,17 +225,20 @@ nav{
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
+    text-transform: uppercase;
+
     /*color: #ffffff;*/
 }
 
 /*Comand*/ /*Команда*/
 
 .comand{
-    padding-top: 95px;
+    padding-top: 94px;
     width: 1200px;
     height: 700px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 94px;
 }
 
 .comand--color{
@@ -313,12 +321,16 @@ nav{
 
 footer{
     background-color: #2F303A;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .ftr{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     align-items: center;
 }
@@ -338,6 +350,7 @@ address{
 
 .name-company--white{
     color: #ffffff;
+    margin-left: 5px;
 }
 
 .adress__text{
@@ -412,6 +425,8 @@ address{
     border: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
 
     font-weight: 900;
     font-size: 16px;
@@ -490,6 +505,7 @@ address{
 .project{
     width: 370px;
     border: 1px solid #EEEEEE;
+    padding-bottom: 20px;
 }
 
 .project:not(:nth-child(3n)){
