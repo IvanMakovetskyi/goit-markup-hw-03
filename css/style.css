@@ -84,13 +84,32 @@ nav{
     color: #212121;
 }
 
-.nav__link:not(last-child){
+.nav__element:not(last-child){
     margin-right: 50px;
 }
 
 .nav__link:focus,
 .nav__link:hover{
     color: #2196F3;
+}
+
+.contackts__icon{
+    fill: #757575;
+}
+
+.mail{
+    width: 16px;
+    height: 11px;
+}
+
+.phone{
+    width: 10px;
+    height: 15px;
+}
+
+.contackts__icon:hover,
+.contackts__icon:focus{
+    fill: #2196F3;
 }
 
 .contacts__text{
@@ -125,7 +144,7 @@ nav{
     width: 550px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
     font-weight: 900;
     font-size: 44px;
@@ -153,8 +172,7 @@ nav{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 94px;
-    margin-bottom: 94px;
+    margin-bottom: 188px;
 }
 
 .main-pynkts__title{
@@ -172,7 +190,25 @@ nav{
     margin-right: 30px;
 }
 
+.pynkts__fon{
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+
+.pynkts__icon{
+    width: 70px;
+    height: 70px;
+}
+
 .pynkts__title{
+    margin-bottom: 10px;
+
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
@@ -192,8 +228,7 @@ nav{
 /*Occupation*/ /*Чем ми занимаемся*/
 .occupation{
     width: 1200px;
-    margin-top: 94px;
-    margin-bottom: 95px;
+    margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -271,7 +306,13 @@ nav{
     margin-right: 30px;
 }
 
+.worker__photo{
+    margin-bottom: 30px;
+}
+
 .worker__name{
+    margin-bottom: 10px;
+
     font-size: 16px;
     line-height: 19px;
 
@@ -280,6 +321,8 @@ nav{
 }
 
 .worker__text{
+    margin-bottom: 30px;
+
     font-size: 16px;
     line-height: 19px;
 
@@ -314,8 +357,22 @@ nav{
     display: flex;
 }
 
+.clients-list__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #afb1B8;
+    border-radius: 4px;
+    max-width: 170px;
+    height: 90px;
+}
+
 .clients-list__element:not(:last-child){
     margin-right: 30px;
+}
+
+.clients-list__icon{
+    fill: #afb1B8;
 }
 /*Footer*/ /*Футер*/
 
@@ -384,8 +441,13 @@ address{
     color: #ffffff;
 }
 
-.go__ss-link{
+.ss-link{
     display: flex;
+}
+
+.ss-link__ss{
+    width: 20px;
+    height: 20px;
 }
 
 /*Lets Go*/ /*Подписаться*/
