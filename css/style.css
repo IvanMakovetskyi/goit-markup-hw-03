@@ -339,7 +339,7 @@ nav{
 
 footer{
     background-color: #2F303A;
-    padding-top: 50px;
+    padding-top: 48px;
     padding-bottom: 20px;
 }
 
@@ -350,7 +350,6 @@ footer{
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
-    align-items: center;
 }
 
 
@@ -389,6 +388,7 @@ address{
 
 .go{
     margin-right: 100px;
+    margin-top: 8px;
 }
 
 .go__title{
@@ -407,6 +407,10 @@ address{
 }
 
 /*Lets Go*/ /*Подписаться*/
+.lets-go{
+    margin-top: 8px;
+}
+
 .lets-go__title{
     margin-bottom: 20px;
 
@@ -457,6 +461,8 @@ address{
 }
 
 .copyright{
+    margin-top: 50px;
+
     text-align: center;
     font-size: 12px;
     line-height: 24px;
