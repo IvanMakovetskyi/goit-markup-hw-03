@@ -60,6 +60,7 @@ nav{
     height: 80px;
 }
 
+
 .nav__name-company{
     font-family: Raleway;
     font-weight: 700;
@@ -93,23 +94,8 @@ nav{
     color: #2196F3;
 }
 
-.contackts__icon{
-    fill: #757575;
-}
-
-.mail{
-    width: 16px;
-    height: 11px;
-}
-
-.phone{
-    width: 10px;
-    height: 15px;
-}
-
-.contackts__icon:hover,
-.contackts__icon:focus{
-    fill: #2196F3;
+.contackts__element:not(:last-child){
+    margin-right: 50px;
 }
 
 .contacts__text{
@@ -118,10 +104,6 @@ nav{
     line-height: 16px;
 
     color: #757575;
-}
-
-.contacts__text--right{
-    margin-right: 30px;
 }
 
 .contacts__text:focus,
@@ -172,7 +154,7 @@ nav{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 188px;
+    margin-bottom: 94px;
 }
 
 .main-pynkts__title{
@@ -191,24 +173,17 @@ nav{
 }
 
 .pynkts__fon{
-    background-color: #F5F4FA;
+    display: flex;
     width: 270px;
     height: 120px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
     margin-bottom: 30px;
-}
+    justify-content: center;
+    align-items: center;
 
-.pynkts__icon{
-    width: 70px;
-    height: 70px;
+    background-color: #F5F4FA;
 }
 
 .pynkts__title{
-    margin-bottom: 10px;
-
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
@@ -228,6 +203,7 @@ nav{
 /*Occupation*/ /*Чем ми занимаемся*/
 .occupation{
     width: 1200px;
+    padding-top: 94px;
     margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
@@ -338,8 +314,7 @@ nav{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 95px;
-    margin-bottom: 95px;
+    margin-bottom: 94px;
 }
 
 .clients__title{
@@ -357,22 +332,8 @@ nav{
     display: flex;
 }
 
-.clients-list__link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #afb1B8;
-    border-radius: 4px;
-    max-width: 170px;
-    height: 90px;
-}
-
 .clients-list__element:not(:last-child){
     margin-right: 30px;
-}
-
-.clients-list__icon{
-    fill: #afb1B8;
 }
 /*Footer*/ /*Футер*/
 
@@ -441,13 +402,8 @@ address{
     color: #ffffff;
 }
 
-.ss-link{
+.go__ss-link{
     display: flex;
-}
-
-.ss-link__ss{
-    width: 20px;
-    height: 20px;
 }
 
 /*Lets Go*/ /*Подписаться*/
