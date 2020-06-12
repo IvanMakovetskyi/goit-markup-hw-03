@@ -17,6 +17,10 @@ body{
     max-width: 1600px;
 }
 
+main{
+    background-color: #ffffff;
+}
+
 a{
     text-decoration: none;
     font-family: Roboto;
@@ -30,8 +34,7 @@ ul{
 /*Header*/ /*Шапка*/
 header{
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0px 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -115,7 +118,6 @@ nav{
 .hello{
     background-image: url(../img/Header_imgfon.png);
     height: 600px;
-    max-width: 1600px;
     padding-top: 200px;
     margin-bottom: 94px;
 
@@ -123,7 +125,7 @@ nav{
 }
 
 .hello__title{
-    width: 550px;
+    width: 560px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -152,6 +154,7 @@ nav{
 /*Main Pynkts*/ /*Главние пункти*/
 .main-pynkts{
     width: 1200px;
+    padding: 0px 15px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 94px;
@@ -206,6 +209,8 @@ nav{
 .occupation{
     width: 1200px;
     padding-top: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
@@ -245,16 +250,16 @@ nav{
 
 /*Comand*/ /*Команда*/
 
-.comand{
+.comand--width{
     width: 1200px;
-    height: 700px;
+    padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.comand--color{
+.comand{
     background-color: #F5F4FA;
-    padding-top: 94px;
+    padding: 94px 0px;
     margin-bottom: 94px;
 }
 
@@ -314,9 +319,8 @@ nav{
 /*Clients*/ /*Клиенти*/
 .clients{
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 94px;
+    padding: 94px 15px;
+    margin: 0 auto;
 }
 
 .clients__title{
@@ -349,8 +353,7 @@ footer{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     display: flex;
 }
 
@@ -475,22 +478,22 @@ address{
 
 .our-projects{
     width: 1240px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 94px 15px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 95px;
 }
 
 .our-projects__title{
-    display: none;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
 }
 
 /*Nav-projects*/ /*Навигация*/
 .list-nav{
     display: flex;
     width: 640px;
-    margin-top: 95px;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
